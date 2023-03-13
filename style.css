@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --gray: #868585;
+    --white: #fff;
+    --black: #3030;
+    --hover: #A9A32A;
+}
+
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.collapse{
+    text-align: center;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.title{
+    color: var(--gray);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav-link{
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: var(--hover);
+}
+
+.navbar-nav{
+    gap: 400px;
+    margin: 0 auto;
+}
+
+.header-content{
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    color: var(--white);
+    text-align: center;
+    height: 900px;
+}
+
+.logo{
+    margin-top: 128px;
+    margin-bottom: 108px;
+}
+
+.header-text{
+    font-size: calc(1em + 2px);
+    margin-bottom: -20px;
+    font-weight: 200;
+}
+
+.header-title{
+    font-weight: bold;
+    font-size: 5em;
+    margin: 0;
+}
+
+.header-subtitle{
+    margin-top: 0;
+    font-size: 3em;
+}
+
+.header-continue{
+    margin-top: 6em;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-contin{
+    border: 1px solid var(--white);
+    padding: 2em 1.5em;
+    border-radius: 100%;
+    background: transparent;
+    transition: .3s ease;
+}
+
+.btn-contin:hover{
+    opacity: .9;
+    background-color: var(--hover);
+    margin-right: -20px;
+}
+
+.continue-text{
+    margin: 0;
+    padding: 2em;
+}
+
+.social{
+    margin-top: 14em;
+}
+
+.social-list{
+    justify-content: center;
+    gap: 20px;
+}
+
+.link-socaial{
+    transition: .3s;
+}
+
+.link-socaial:hover{
+    transform: scale(1.2);
+}
+
+.stuff{
+   margin-top: 150px; 
+   margin-bottom: 150px;
+}
+
+.row{
+    gap: 5%;
+}
+
+.stuff-discrube{
+    margin: 50px auto;
+}
+
+.stuff-discrube-title{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.stuff-discrube-text{
+    font-size: calc(1em - 2px);
+}
+
+.image-dis{
+    padding: 5em;
+}
+
+.tarif-title{
+    margin-bottom: 2em;
+}
+
+.list-tarif{
+    gap: 20px;
+}
+
+.link-tarif{
+    color: black;
+}
+
+.link-tarif:hover{
+    text-decoration: underline;
+}
+
+
+.image-tarif{
+    padding-left: 80px;
+}
+
+.tarif-text-img{
+    margin-top: 4em;
+    font-weight: 700;
+}
