@@ -177,3 +177,43 @@ body{
     margin-top: 4em;
     font-weight: 700;
 }
+
+.price{
+    margin-top: 100px;
+}
+
+.price p{
+    font-size: calc(1em - 2px);
+}
+
+.advange{
+    margin-top: 80px;
+}
+
+.advange h5{
+    font-weight: 700;
+    font-size: calc(1em + 2px);
+}
+
+.advange p{
+    font-size: calc(1em - 2px);
+}
+
+.losung{
+    margin-top: 150px;
+    background-image: url(./img/background2.jpg);
+    background-size: cover;
+    padding: 128px;
+    text-align: center;
+
+}
+
+.losung h1{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    color: var(--white);
+    max-width: 673px;
+    line-height: 57px;
+    font-size: calc(3em - 6px);
+}
